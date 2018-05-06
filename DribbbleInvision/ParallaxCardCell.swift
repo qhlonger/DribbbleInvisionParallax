@@ -88,7 +88,7 @@ class ParallaxCardCell: UICollectionViewCell {
             return _ratio;
         }
         set {
-            _ratio = newValue
+            _ratio = 1-newValue
             calBgImgPositionByRatio()
             }
     }
