@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3C0824CCBD9DDBB0B229E8 /* Pods_DribbbleInvision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596114A93B7C19E2C5DDFE05 /* Pods_DribbbleInvision.framework */; };
+		F27436C1209ED1B0008929C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27436C0209ED1B0008929C3 /* AppDelegate.swift */; };
+		F27436C3209ED1B0008929C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27436C2209ED1B0008929C3 /* ViewController.swift */; };
+		F27436C6209ED1B0008929C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27436C4209ED1B0008929C3 /* Main.storyboard */; };
+		F27436C8209ED1B0008929C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27436C7209ED1B0008929C3 /* Assets.xcassets */; };
+		F27436CB209ED1B0008929C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27436C9209ED1B0008929C3 /* LaunchScreen.storyboard */; };
+		F27436D3209ED31A008929C3 /* ParallaxCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27436D2209ED31A008929C3 /* ParallaxCardCell.swift */; };
+		F27436D5209ED622008929C3 /* ParallaxCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27436D4209ED622008929C3 /* ParallaxCardView.swift */; };
+		F27436D7209EDB1A008929C3 /* DIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27436D6209EDB1A008929C3 /* DIHelper.swift */; };
+		F27436D9209F141A008929C3 /* CardFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27436D8209F141A008929C3 /* CardFlowLayout.swift */; };
+		F27436DB209F2BB1008929C3 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F27436DA209F2BB1008929C3 /* data.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05A594D5EC835501D790273F /* Pods-DribbbleInvision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleInvision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleInvision/Pods-DribbbleInvision.debug.xcconfig"; sourceTree = "<group>"; };
+		0BE063150DE77D61E1612956 /* Pods-DribbbleInvision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleInvision.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleInvision/Pods-DribbbleInvision.release.xcconfig"; sourceTree = "<group>"; };
+		596114A93B7C19E2C5DDFE05 /* Pods_DribbbleInvision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DribbbleInvision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27436BD209ED1B0008929C3 /* DribbbleInvision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribbbleInvision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27436C0209ED1B0008929C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F27436C2209ED1B0008929C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F27436C5209ED1B0008929C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F27436C7209ED1B0008929C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F27436CA209ED1B0008929C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F27436CC209ED1B0008929C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27436D2209ED31A008929C3 /* ParallaxCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCardCell.swift; sourceTree = "<group>"; };
+		F27436D4209ED622008929C3 /* ParallaxCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCardView.swift; sourceTree = "<group>"; };
+		F27436D6209EDB1A008929C3 /* DIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIHelper.swift; sourceTree = "<group>"; };
+		F27436D8209F141A008929C3 /* CardFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlowLayout.swift; sourceTree = "<group>"; };
+		F27436DA209F2BB1008929C3 /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F27436BA209ED1B0008929C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3C0824CCBD9DDBB0B229E8 /* Pods_DribbbleInvision.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FFA3BCA8F70F3A98ED40632 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05A594D5EC835501D790273F /* Pods-DribbbleInvision.debug.xcconfig */,
+				0BE063150DE77D61E1612956 /* Pods-DribbbleInvision.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3AA2130BB87D65E284AB549E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				596114A93B7C19E2C5DDFE05 /* Pods_DribbbleInvision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F27436B4209ED1B0008929C3 = {
+			isa = PBXGroup;
+			children = (
+				F27436BF209ED1B0008929C3 /* DribbbleInvision */,
+				F27436BE209ED1B0008929C3 /* Products */,
+				1FFA3BCA8F70F3A98ED40632 /* Pods */,
+				3AA2130BB87D65E284AB549E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F27436BE209ED1B0008929C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F27436BD209ED1B0008929C3 /* DribbbleInvision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F27436BF209ED1B0008929C3 /* DribbbleInvision */ = {
+			isa = PBXGroup;
+			children = (
+				F27436C0209ED1B0008929C3 /* AppDelegate.swift */,
+				F27436C2209ED1B0008929C3 /* ViewController.swift */,
+				F27436D6209EDB1A008929C3 /* DIHelper.swift */,
+				F27436D8209F141A008929C3 /* CardFlowLayout.swift */,
+				F27436D4209ED622008929C3 /* ParallaxCardView.swift */,
+				F27436D2209ED31A008929C3 /* ParallaxCardCell.swift */,
+				F27436DA209F2BB1008929C3 /* data.plist */,
+				F27436C4209ED1B0008929C3 /* Main.storyboard */,
+				F27436C7209ED1B0008929C3 /* Assets.xcassets */,
+				F27436C9209ED1B0008929C3 /* LaunchScreen.storyboard */,
+				F27436CC209ED1B0008929C3 /* Info.plist */,
+			);
+			path = DribbbleInvision;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F27436BC209ED1B0008929C3 /* DribbbleInvision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27436CF209ED1B0008929C3 /* Build configuration list for PBXNativeTarget "DribbbleInvision" */;
+			buildPhases = (
+				B30A516A6458F64604AE96BC /* [CP] Check Pods Manifest.lock */,
+				F27436B9209ED1B0008929C3 /* Sources */,
+				F27436BA209ED1B0008929C3 /* Frameworks */,
+				F27436BB209ED1B0008929C3 /* Resources */,
+				7760D47DE9166F70DA2DA59D /* [CP] Embed Pods Frameworks */,
+				8F0EAE34487F6C69F47A4F43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DribbbleInvision;
+			productName = DribbbleInvision;
+			productReference = F27436BD209ED1B0008929C3 /* DribbbleInvision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F27436B5209ED1B0008929C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = hl;
+				TargetAttributes = {
+					F27436BC209ED1B0008929C3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F27436B8209ED1B0008929C3 /* Build configuration list for PBXProject "DribbbleInvision" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F27436B4209ED1B0008929C3;
+			productRefGroup = F27436BE209ED1B0008929C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F27436BC209ED1B0008929C3 /* DribbbleInvision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F27436BB209ED1B0008929C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27436CB209ED1B0008929C3 /* LaunchScreen.storyboard in Resources */,
+				F27436C8209ED1B0008929C3 /* Assets.xcassets in Resources */,
+				F27436DB209F2BB1008929C3 /* data.plist in Resources */,
+				F27436C6209ED1B0008929C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7760D47DE9166F70DA2DA59D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleInvision/Pods-DribbbleInvision-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleInvision/Pods-DribbbleInvision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0EAE34487F6C69F47A4F43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleInvision/Pods-DribbbleInvision-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B30A516A6458F64604AE96BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DribbbleInvision-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F27436B9209ED1B0008929C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27436C3209ED1B0008929C3 /* ViewController.swift in Sources */,
+				F27436D9209F141A008929C3 /* CardFlowLayout.swift in Sources */,
+				F27436D3209ED31A008929C3 /* ParallaxCardCell.swift in Sources */,
+				F27436C1209ED1B0008929C3 /* AppDelegate.swift in Sources */,
+				F27436D5209ED622008929C3 /* ParallaxCardView.swift in Sources */,
+				F27436D7209EDB1A008929C3 /* DIHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F27436C4209ED1B0008929C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F27436C5209ED1B0008929C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F27436C9209ED1B0008929C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F27436CA209ED1B0008929C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F27436CD209ED1B0008929C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F27436CE209ED1B0008929C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F27436D0209ED1B0008929C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A594D5EC835501D790273F /* Pods-DribbbleInvision.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G3X3LGLVU;
+				INFOPLIST_FILE = DribbbleInvision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hl.DribbbleInvision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F27436D1209ED1B0008929C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE063150DE77D61E1612956 /* Pods-DribbbleInvision.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G3X3LGLVU;
+				INFOPLIST_FILE = DribbbleInvision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hl.DribbbleInvision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F27436B8209ED1B0008929C3 /* Build configuration list for PBXProject "DribbbleInvision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27436CD209ED1B0008929C3 /* Debug */,
+				F27436CE209ED1B0008929C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27436CF209ED1B0008929C3 /* Build configuration list for PBXNativeTarget "DribbbleInvision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27436D0209ED1B0008929C3 /* Debug */,
+				F27436D1209ED1B0008929C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F27436B5209ED1B0008929C3 /* Project object */;
+}

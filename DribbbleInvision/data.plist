@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>people</key>
+		<array>
+			<string>p1</string>
+		</array>
+		<key>bgimg</key>
+		<string>1</string>
+		<key>desc</key>
+		<string>45 million songs. Plus your entire iTunes library.</string>
+		<key>title</key>
+		<string>Apple Music</string>
+		<key>icon</key>
+		<string>i1</string>
+	</dict>
+	<dict>
+		<key>people</key>
+		<array>
+			<string>p1</string>
+		</array>
+		<key>bgimg</key>
+		<string>2</string>
+		<key>desc</key>
+		<string>The powerful programming language that is also easy to learn.</string>
+		<key>title</key>
+		<string>Swift4</string>
+		<key>icon</key>
+		<string>i2</string>
+	</dict>
+	<dict>
+		<key>people</key>
+		<array>
+			<string>p1</string>
+		</array>
+		<key>bgimg</key>
+		<string>3</string>
+		<key>desc</key>
+		<string>Find the apps you love. And the ones you’re about to.</string>
+		<key>title</key>
+		<string>AppStore</string>
+		<key>icon</key>
+		<string>i3</string>
+	</dict>
+	<dict>
+		<key>people</key>
+		<array>
+			<string>p1</string>
+		</array>
+		<key>bgimg</key>
+		<string>1</string>
+		<key>desc</key>
+		<string>45 million songs.</string>
+		<key>title</key>
+		<string>Apple Music</string>
+		<key>icon</key>
+		<string>i1</string>
+	</dict>
+	<dict>
+		<key>people</key>
+		<array>
+			<string>p1</string>
+		</array>
+		<key>bgimg</key>
+		<string>4</string>
+		<key>desc</key>
+		<string>taking apps far beyond the screen and freeing them to interact with the real world in entirely new ways.</string>
+		<key>title</key>
+		<string>ARKit</string>
+		<key>icon</key>
+		<string>i4</string>
+	</dict>
+</array>
+</plist>
